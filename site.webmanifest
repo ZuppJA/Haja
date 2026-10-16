@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Haja",
-  "short_name": "Haja",
-  "description": "Haja — agenda de eventos e compromissos da igreja.",
+  "name": "Haja!",
+  "short_name": "Haja!",
+  "description": "Haja! — agenda de eventos e compromissos da igreja.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -14,13 +14,13 @@
       "src": "https://emamgvijlqtwmrvcobnu.supabase.co/storage/v1/object/public/rede-jovens-assets/app-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "https://emamgvijlqtwmrvcobnu.supabase.co/storage/v1/object/public/rede-jovens-assets/app-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }

@@ -1,6 +1,6 @@
 /* Haja PWA: only the compact app shell is cached. Supabase API and Storage stay network-only. */
 'use strict';
-const CACHE_NAME = 'haja-shell-v5';
+const CACHE_NAME = 'haja-v12-profile-privacy-sidebar-mine-agenda';
 const BASE_URL = self.registration.scope;
 const APP_ROOT_URL = new URL('./', BASE_URL);
 const INDEX_URL = new URL('./index.html', BASE_URL);
@@ -20,7 +20,7 @@ self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
       .then(keys => Promise.all(
-        keys.filter(key => (key.startsWith('haja-shell-') || key.startsWith('rede-jovens-')) && key !== CACHE_NAME)
+        keys.filter(key => (key.startsWith('haja-') || key.startsWith('rede-jovens-')) && key !== CACHE_NAME)
           .map(key => caches.delete(key))
       ))
       .then(() => self.clients.claim())
