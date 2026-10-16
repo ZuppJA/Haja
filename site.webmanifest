@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Rede-Jovens — Agenda da Igreja",
-  "short_name": "Rede-Jovens",
-  "description": "Agenda da igreja — eventos e compromissos em um só lugar.",
+  "name": "Haja",
+  "short_name": "Haja",
+  "description": "Haja — agenda de eventos e compromissos da igreja.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
